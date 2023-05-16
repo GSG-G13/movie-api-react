@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700;900&display=swap");
+/* font-family: "Barlow Semi Condensed", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap");
+/* font-family: 'Baloo 2', cursive; */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  background-image: linear-gradient(180deg, #14152f, #000212, #000212);
+  background-size: cover;
+  background-attachment: fixed;
+  min-width: 100wh;
+  margin-bottom: 2rem;
+  font-family: "Baloo 2", cursive;
+  color: aliceblue;
+}
+.😐 {
+  position: relative;
+  height: 500px;
+}
+.heading {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-left: 2rem;
+}
+h2 {
+  color: #00fff7;
+}
+.today-week {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.5rem 2rem;
+  width: fit-content;
+  border: 1px solid;
+  border-radius: 34px;
+  font-weight: 700;
+}
+.😎 {
+  height: 312;
+}
+.poster {
+  width: 150px;
+  height: 226px;
+}
+.content {
+  width: 100%;
+  padding: 26px 10px 12px 10px;
+}
