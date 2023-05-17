@@ -13,9 +13,9 @@ class Header extends React.Component {
             </nav>
           </div>
         </div>
-        <article class="background-image container">
-          <header class="container__header background-image__hover">
-            <div class="container__header__content">
+        <article className="background-image container">
+          <header className="container__header background-image__hover">
+            <div className="container__header__content">
               <h1>Welcome.</h1>
               <p>
                 Millions of movies, TV shows and people to discover. Explore
