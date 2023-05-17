@@ -1,6 +1,6 @@
 # MovieSpot App
 
-The Movie App is a web application built with React that allows users to browse and search for movies. It fetches movie data from an API and provides a user-friendly interface for filtering and viewing movie details.
+The MovieSpot App is a web application built with React that allows users to browse and search for movies. It fetches movie data from an API and provides a user-friendly interface for filtering and viewing movie details.
 
 ## Features
 
