@@ -1,10 +1,11 @@
 import React from "react";
-import Api from "./Api";
+// import Api from "./Api";
+import Header from "./components/Header/Header";
 
 const App = () => {
   return (
-    <div className="">
-      <Api />
+    <div className="App">
+      <Header />
     </div>
   );
 };
