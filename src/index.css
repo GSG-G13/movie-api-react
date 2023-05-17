@@ -10,7 +10,6 @@ body {
   background-image: linear-gradient(180deg, #14152f, #000212, #000212);
   background-size: cover;
   background-attachment: fixed;
-  width: 98vw;
   margin-bottom: 2rem;
   font-family: "Baloo 2", cursive;
   color: aliceblue;
@@ -18,6 +17,7 @@ body {
 .😐 {
   position: relative;
   height: 500px;
+  margin: 2rem 0;
 }
 .heading {
   display: flex;
@@ -52,6 +52,7 @@ h2 {
 .today-week > div:nth-child(4) {
   padding-right: 0.5rem;
 }
+/* :start */
 .cards {
   padding: 1rem 4rem;
   display: flex;
