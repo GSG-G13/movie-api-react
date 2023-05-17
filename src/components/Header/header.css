@@ -367,3 +367,12 @@ input {
   padding: 20px;
   width: 100%;
 }
+P {
+  color: #fff;
+    text-align: start;
+    line-height: 1.4;
+}
+
+.container__header__content p{
+  font-size: 20px;
+}

@@ -59,16 +59,19 @@ h2 {
   gap: 2rem;
   flex-wrap: wrap;
 }
-.😎 {
+.card {
   position: relative;
 }
 .percentage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 34px;
   width: 34px;
   border-radius: 50%;
   z-index: 2;
   position: absolute;
-  font-size: 21px;
+  font-size: 18px;
   background-color: #000000;
   color: aliceblue;
   font-weight: 800;
@@ -84,22 +87,23 @@ h2 {
 }
 .content {
   width: 180px;
-  padding: 26px 10px 12px 10px;
-  position: relative;
-  white-space: normal;
-  display: flex;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  color: #c3b7ec;
+    padding: 26px 10px 12px 10px;
+    position: relative;
+    white-space: normal;
+    display: flex;
+    flex-wrap: wrap;
+    color: #c3b7ec;
+    flex-direction: column;
+    align-content: flex-start;
 }
 .title {
-  font-weight: 700;
-  font-size: 1.5rem;
-  transition: ease-in-out 0.4s;
-  animation-name: color;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  font-weight: 600;
+    font-size: 1rem;
+    transition: ease-in-out 0.4s;
+    animation-name: color;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 @keyframes color {
   0% {
